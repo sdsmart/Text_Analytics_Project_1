@@ -145,7 +145,7 @@ only once, then it is just one big fat bar that goes from 0 to 1 (doesn't look v
 
 Collections Chosen
 ------------------
-Name			Size
+Name			Size<br/>
 1. Theodosius   3.6 MB<br/>
 2. Silius		0.9 MB<br/>
 3. May			0.212 MB<br/>
@@ -160,7 +160,7 @@ different. This was stated to be okay to do.
 
 Parsing Notes
 -------------
-1. Theodosius:
+1: Theodosius:
 
 This collection was not too bad to parse but it is definitely
 much more difficult to parse than many other collections.
@@ -169,7 +169,7 @@ and each verses list the chapter as well as the verse at the top in the form
 Book.Chapter.Verse (numbers). Some verses were just one paragraph while other
 verses spanned multiple paragraphs.
 
-  2-4. Silius, May, Lucan:
+2-4: Silius, May, Lucan:
 
 The collections that are organizes like a poem where each line is a verse
 are the easiest to parse from my experience. I didn't have much trouble parsing
@@ -179,7 +179,7 @@ closing tags, things get really weird. Edge cases must be coded in order to fix 
 these problems. I believe I solved all edge cases with these collections and the
 contents of the database seem to be correct.
 
-5. Virgil:
+5: Virgil:
 
 This collection was somewhat similar to the 3 collections above, however the html
 files were messed up significantly more. All the files had missing closing tags.
