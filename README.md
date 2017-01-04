@@ -146,11 +146,11 @@ only once, then it is just one big fat bar that goes from 0 to 1 (doesn't look v
 Collections Chosen
 ------------------
 Name			Size
-1. Theodosius   3.6 MB
-2. Silius		0.9 MB
-3. May			0.212 MB
-4. Lucan		0.640 MB
-5. Virgil		4.3 MB
+1. Theodosius   3.6 MB<br/>
+2. Silius		0.9 MB<br/>
+3. May			0.212 MB<br/>
+4. Lucan		0.640 MB<br/>
+5. Virgil		4.3 MB<br/>
 
 Total Size: 9.65 MB
 
@@ -169,7 +169,7 @@ and each verses list the chapter as well as the verse at the top in the form
 Book.Chapter.Verse (numbers). Some verses were just one paragraph while other
 verses spanned multiple paragraphs.
 
-2-4. Silius, May, Lucan:
+  2-4. Silius, May, Lucan:
 
 The collections that are organizes like a poem where each line is a verse
 are the easiest to parse from my experience. I didn't have much trouble parsing
