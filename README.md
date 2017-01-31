@@ -15,7 +15,7 @@ Further explanation of the options within this program are discussed below.
 ### Project Discussion / Explanation
 ##### Data Extraction
 In order to extract the required data for the application, I just ran a bunch of wget
-commands (using python code) that went to www.thelatinlibrary.com/mycollection and
+commands (using python code) that went to www.thelatinlibrary.com and
 downloaded all of the html files that I needed. This part was straight forward.
 
 ##### Database Population
