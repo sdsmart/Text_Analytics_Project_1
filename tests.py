@@ -17,7 +17,7 @@ import data_extraction
 def test_download_files():
 	data_extraction.download_files();
 
-	base_dir = 'www.thelatinlibrary.com/'
+	base_dir = 'latin-texts/'
 
 	# Getting the number of files in each folder of interest
 	num_files_in_main_folder = len(os.listdir(base_dir))

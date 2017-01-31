@@ -1,8 +1,6 @@
-About This Repository
-=====================
-This project was assigned to me in my Text Analytics class at the University of Oklahoma.
-
-The purpose of this project was to be able to extract, process, and manage latin text data
+Latin Text Manipulation
+-----------------------
+The purpose of this project is to to extract, process, and manage a collection of latin texts
 as well as provide translation services and visualize the data.
 
 Part A: Data Extraction
