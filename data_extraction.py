@@ -17,7 +17,7 @@ import codecs
 # ------------------------
 # --- Global Variables ---
 # ------------------------
-base_dir = 'www.thelatinlibrary.com/'
+base_dir = 'latin-texts/'
 latin_texts = ['theodosius', 'silius', 'may', 'lucan', 'verg']
 # List of passages (each passage is a list containing 9 elements)
 # title, book, language, author, dates, chapter, verse, passage, link
@@ -290,7 +290,7 @@ def parse_files():
 # --------------- End parse_files() ---------------
 
 def store_data(db_name):
-    # Creating / connecting to latin-text.db
+    # Creating / connecting to latin_text.db
     db = sqlite3.connect(db_name)
 
     # Creating db cursor in order to execute sql statements
@@ -343,6 +343,6 @@ if __name__ == '__main__':
     parse_files()        
 
     # Storing the list of passages (created above) into the database
-    store_data('latin-text.db')
+    store_data('latin_text.db')
 
 # --------------- End Script ---------------

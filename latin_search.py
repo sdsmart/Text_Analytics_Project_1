@@ -48,8 +48,8 @@ def get_selected_option():
 # --------------- End get_selected_option() ---------------
 
 def search(search_term):
-	# Connecting to the latin-text.db database in sqlite3
-	db = sqlite3.connect('latin-text.db')
+	# Connecting to the latin_text.db database in sqlite3
+	db = sqlite3.connect('latin_text.db')
 	db_cursor = db.cursor()
 
 	# Grabbing all the matches for the given search term
@@ -100,8 +100,8 @@ def translate(english_search_term):
 # --------------- End translate(english_search_term) ---------------
 
 def display_usage_chart(search_terms):
-	# Connecting to the latin-text.db database in sqlite3
-	db = sqlite3.connect('latin-text.db')
+	# Connecting to the latin_text.db database in sqlite3
+	db = sqlite3.connect('latin_text.db')
 	db_cursor = db.cursor()
 
 	# Building a select statement query based on the given search terms
