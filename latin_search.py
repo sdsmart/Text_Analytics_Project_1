@@ -127,17 +127,17 @@ def display_usage_chart(search_terms):
 		values.append(int(data[i][1]))
 
 	# Getting the figure from matplotlib
-	fig = plt.figure()
+	fig = plt.figure(figsize=(14, 8))
 
 	# Setting up the bar chart
-	width = .35
+	width = .25
 	ind = np.arange(len(data))
 	plt.bar(ind, values, width=width, align='center')
-	plt.xticks(ind + width / 2, collections, fontsize='8', ha='center', rotation='vertical')
+	plt.xticks(ind, collections, fontsize='8', ha='center', rotation='horizontal')
 	plt.xlabel('Collection Title')
 	plt.ylabel('Number of Occurences')
 	plt.title('Occurences Based On Collection')
-	plt.gcf().tight_layout()
+	#plt.gcf().tight_layout()
 
 	# Displaying the chart
 	print('\nDisplaying Chart... (Exit chart to continue with application)')
